@@ -1,0 +1,27 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 README\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+Fitting a Second Order Polynomial to Data\
+\
+In this code, we fit a second order polynomial to data that contains three columns: \{x, y, sigma\}. The code reads in this data and uses a chi
+\fs26 -squared minimiser to fit the data. The code then outputs the coefficients of the polynomial and chi-squared value for the fit. 
+\fs24 \
+\
+To run:\
+\
+\'97 untar homework6.tar\
+\'97 Compile fit.c using clang -std=c99 fit.c linearalgebra.c -o fit
+\f1\fs26 \cf2 \CocoaLigature0 \
+\'97 
+\f0\fs24 \cf0 \CocoaLigature1 Run coordinates code using ./fit cannonball.dat N\
+		\'97 Where cannonball.dat = number of resistors\
+		\'97 N = number of lines in data to read\
+\
+}

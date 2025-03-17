@@ -1,0 +1,18 @@
+
+Linear Algebra in Context of Circuits:\
+\
+A simple circuit with few resistors can be analysed to study the net resistance using simple formulae. However, as circuit sizes increase and the ability to use a physical Ohmmeter goes away, we must rely on computational physics to compute resistances. \
+\
+We solve a resistors in a grid problem computing the resistance between point 1 (c1,c2) and point 2 (v1, v2) with N number of resistors. We convert our problem into a matrix and then use a Gaussian elimination strategy to solve the matrix (containing rows describing the top, middle, and bottom resistors in a grid of resistors) for the net resistance. \
+\
+To run:\
+\
+\'97 untar homework5.tar\
+\'97 Compile resistor2.c using clang -std=c99 resistor2.c linearalgebra.c -o resistor2
+
+ Run coordinates code using ./resistor2 N c1 c2 v1 v2\
+		Where N = number of resistors\
+		c1, c2 = coordinates of first vertex (c1,c2)\
+		v1, v2 = coordinates of second vertex (v1, v2)\
+\
+}
