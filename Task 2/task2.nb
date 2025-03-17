@@ -9,7 +9,6 @@ NotebookOutlinePosition[     62555,       1455]
 CellTagsIndexPosition[     62512,       1452]
 WindowFrame->Normal*)
 
-(* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
